@@ -7,12 +7,12 @@ var settings = {
 
 var bot = new Bot(settings);
 
-var messages = ['Interesting...', 'Please, tell me about more.',
+var messages = ['Interesting...', 'Please, tell me more.',
   'Have you tried turning it off and on again?', 'What could be the problem?',
   'That\'s weird.', 'I don\'t understand.', 'Can you elaborate?',
   'I don\'t know man.', 'I\'m just a duck.', 'I\'m not even real.',
   'Please, continue.', 'What does that do?', 'What else?', 'Oh, ok.',
-  'What?', 'Yup.', 'Quack.', 'So where\'s the problem?'];
+  'What?', 'Yup.', 'Quack.', 'So where\'s the problem?', 'Have you tried googling it?'];
 
 function getMessage() {
   return messages [Math.floor(Math.random() * (messages.length + 1))];
