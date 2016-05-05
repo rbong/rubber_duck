@@ -12,7 +12,8 @@ var messages = ['Interesting...', 'Please, tell me more.',
   'That\'s weird.', 'I don\'t understand.', 'Can you elaborate?',
   'I don\'t know man.', 'I\'m just a duck.', 'I\'m not even real.',
   'Please, continue.', 'What does that do?', 'What else?', 'Oh, ok.',
-  'What?', 'Yup.', 'Quack.', 'So where\'s the problem?', 'Have you tried googling it?'];
+  'What?', 'Yup.', 'Quack.', 'So where\'s the problem?', 'Have you tried googling it?',
+  'Try again later.'];
 
 function getMessage() {
   return messages [Math.floor(Math.random() * (messages.length + 1))];
